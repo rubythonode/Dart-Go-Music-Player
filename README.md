@@ -14,7 +14,7 @@ Next, replace the files in <em>DartWebAudio/web/songs</em> with a few MP3 files.
 
 <code>% pub build </code>
 
-Copy the Go executable to <em>DartWebAudio/build/web</em>, create a directory named "dart_music" in your web server, then copy the contents of the former directory into the new one. 
+Copy the Go executable (Go-Dart-Music-Player or Go-Dart-Music-Player.exe) to <em>DartWebAudio/build/web</em>, create a directory named "dart_music" in your web server, then copy the contents of the former directory into the new one. 
 
 # Running the package
 Before running the mobile app, start running the Go executable. The first time you want to run the app, start up a new command prompt, go to this repository, then 
