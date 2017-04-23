@@ -18,7 +18,6 @@ build/
 *.js.deps
 *.js.map
 *.info.json
-*.exe 
 
 # Directory created by dartdoc
 doc/api/
