@@ -19,7 +19,7 @@ Copy the Go executable (Go-Dart-Music-Player or Go-Dart-Music-Player.exe) to <em
 # Running the package
 Before running the mobile app, start running the Go executable. The first time you want to run the app, start up a new command prompt, go to this repository, then 
 
-<code>% cd ../mobile </code>
+<code>% cd FlutterGoMusic2</code>
 
 Connect your cellphone to your computer. Using the "flutter" command in the "bin" directory of your Flutter repo, 
 
