@@ -6,7 +6,7 @@ The first step is compiling the Go, using
 
 <code>% go build </code>
 
-Next, replace the files in <em>DartWebAudio/web/songs</em> with a few MP3 files. Compile the music playback Dart by
+Next, replace the files in <em>DartWebAudio/web/songs</em> with a few of your own MP3 files. Compile the music playback Dart by
 
 <code>% cd DartWebAudio </code>
 
@@ -25,5 +25,5 @@ Connect your cellphone to your computer. Using the "flutter" command in the "bin
 
 <code>%flutter run </code>
 
-If this command finishes successfully, the app should be installed as "Flutter3Simple". Wait for the song titles to load, then tap on a filename. Your cell browser should appear with a message, and your song should play shortly.
+If this command finishes successfully, the app should be installed as "FlutterGoMusic2". Wait for the song titles to load, then tap on a filename. Your cell browser should appear with a message, and your song should play shortly.
 
