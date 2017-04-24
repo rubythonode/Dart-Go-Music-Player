@@ -17,7 +17,7 @@ Next, replace the files in <em>DartWebAudio/web/songs</em> with a few of your ow
 Copy the Go executable (Go-Dart-Music-Player or Go-Dart-Music-Player.exe) to <em>DartWebAudio/build/web</em>, create a directory named "dart_music" in your web server, then copy the contents of the former directory into the new one. 
 
 # Running the package
-Before running the mobile app, start running the Go executable. The first time you want to run the app, start up a new command prompt, go to this repository, then 
+Before running the mobile app, start running the copy of the Go executable that is in your web server (C:\inetpub\wwwroot or /var/www/html). The first time you want to run the app, start up a new command prompt, go to this repository, then 
 
 <code>% cd FlutterGoMusic2</code>
 
