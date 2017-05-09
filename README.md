@@ -1,5 +1,5 @@
 # Dart-Go-Music-Player
-This is a retooled version of DartMusicPlayer, using Go to remove need for 2 music directories. You will need Go (golang.org, the Dart SDK (dartlang.org) and Flutter (github.com/flutter/flutter).
+This is a retooled version of DartMusicPlayer, using Go to remove need for 2 music directories. You will need Go (golang.org, the Dart SDK (dartlang.org) and Flutter (github.com/flutter/flutter). For instructions on how to set the Flutter SDK up, see [flutter.io](https://flutter.io/).
 
 # Compiling
 The first step is compiling the Go, using
