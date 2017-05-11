@@ -2,7 +2,7 @@
 This is a retooled version of DartMusicPlayer, using Go to remove need for 2 music directories. You will need Go (golang.org, the Dart SDK (dartlang.org) and Flutter (github.com/flutter/flutter). For instructions on how to set up your computer for Flutter development, see [flutter.io](https://flutter.io/).
 
 ## Configuration
-Replace the base URL in main.go, DartWebAudio/main.dart, and the FlutterGoMusic2/lib Dart files to your public IP address.
+Replace the base URL in main.go, DartWebAudio/main.dart, and FlutterGoMusic2/lib/main.dart to your public IP address.
 
 ## Compiling
 The first step is compiling the Go, using
