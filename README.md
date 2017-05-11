@@ -1,23 +1,32 @@
 # Dart-Go-Music-Player
 This is a retooled version of DartMusicPlayer, using Go to remove need for 2 music directories. You will need Go (golang.org, the Dart SDK (dartlang.org) and Flutter (github.com/flutter/flutter). For instructions on how to set up your computer for Flutter development, see [flutter.io](https://flutter.io/).
 
-# Compiling
+## Configuration
+Replace the base URL in main.go, DartWebAudio/main.dart, and the FlutterGoMusic2/lib Dart files to your public IP address.
+
+## Compiling
 The first step is compiling the Go, using
 
-<code>% go build </code>
+<code>go build </code>
 
 Next, replace the files in <em>DartWebAudio/web/songs</em> with a few of your own MP3 files. Compile the music playback Dart by
 
-<code>% cd DartWebAudio </code>
+<code>cd DartWebAudio </code>
 
-<code>% pub get </code>
+<code>pub get </code>
 
-<code>% pub build </code>
+<code>pub build </code>
 
-Copy the Go executable (Go-Dart-Music-Player or Go-Dart-Music-Player.exe) to <em>DartWebAudio/build/web</em>, create a directory named "dart_music" in your web server, then copy the contents of the former directory into the new one. 
+Copy the Go executable (Go-Dart-Music-Player or Go-Dart-Music-Player.exe) to <em>DartWebAudio/build/web</em>. 
 
-# Running the package
-Before running the mobile app, start running the copy of the Go executable that is in your web server (C:\inetpub\wwwroot or /var/www/html). The first time you want to run the app, start up a new command prompt, go to this repository, then 
+## Running the package
+Before running the mobile app, start running the copy of the Go executable. Start up a command prompt, go to this repository, then: 
+
+<code>cd DartWebAudio</code>
+
+<code>dart main.dart</code>
+
+The first time you want to run the app, start up a new command prompt, go to this repository, then 
 
 <code>% cd FlutterGoMusic2</code>
 
