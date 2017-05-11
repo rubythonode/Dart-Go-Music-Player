@@ -36,7 +36,7 @@ class MusicPlayerState extends State<MusicPlayer> {
      ListTile tile = new ListTile(
          leading: new CircleAvatar(child: new Text(song[0])),
          title: new Text(song),
-         onTap: () => UrlLauncher.launch("http://10.0.0.6/dart_music/?song=$song")
+         onTap: () => UrlLauncher.launch("http://[2601:247:c303:d820:6ec2:17ff:fe61:aeb8]:8080/?song=$song")
      );
      tileList.add(tile);
    }
@@ -54,7 +54,7 @@ class SongList {
 //  final List<Song> songs = new List();
   final List<String> songs = new List();
 
-  static const String _serviceUrl = 'http://10.0.0.6:8000/api/filelist';
+  static const String _serviceUrl = 'http://[2601:247:c303:d820:6ec2:17ff:fe61:aeb8]:8000/api/filelist';
 
   static Future loadFromService() {
     List songs = new List();
